@@ -625,7 +625,6 @@ mod compute_shader {
                     ty: DescriptorDescTy::Buffer(DescriptorBufferDesc {
                         dynamic: Some(false),
                         storage: false,
-                        // [EDIT] This line ^ is what's causing the issue.
                     }),
                     array_count: 1u32,
                     stages: self.0.clone(),
