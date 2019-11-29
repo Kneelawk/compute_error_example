@@ -44,3 +44,7 @@ I decided to run `cargo expand compute_shader` to see what the generated descrip
 
 ## glslc Details
 `glslc` is not installed.
+
+# Issue Link
+[Here is a link](https://github.com/vulkano-rs/vulkano/issues/1283#issue-530278345) to the issue on the vulkano
+repository.
