@@ -1,0 +1,45 @@
+[verb:general][Layer Internal Message] Added messenger
+[verb:general][Layer Internal Message] Added messenger
+[verb:general][Layer Internal Message] Added messenger
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0x2] : CREATE DebugUtilsMessengerEXT object 0x1
+[verb:general][Layer Internal Message] Added messenger
+[verb:general][Layer Internal Message] Added messenger
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0x3] : CREATE Device object 0x55c9242cc6b0
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0x4] : CREATE VK_DEBUG_REPORT_OBJECT_TYPE_QUEUE_EXT object 0x55c923ec0b20
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0x5] : CREATE Buffer object 0x2
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0x6] : CREATE DeviceMemory object 0x3
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0x7] : CREATE ShaderModule object 0x4
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0x8] : CREATE DescriptorSetLayout object 0x5
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0x9] : CREATE PipelineLayout object 0x6
+[error:validation][UNASSIGNED-CoreValidation-Shader-DescriptorTypeMismatch] Type mismatch on descriptor slot 0.0 (expected `VK_DESCRIPTOR_TYPE_STORAGE_BUFFER, VK_DESCRIPTOR_TYPE_STORAGE_BUFFER_DYNAMIC`) but descriptor of type VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0xa] : CREATE Pipeline object 0x7
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0xb] : CREATE DescriptorPool object 0x8
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0xc] : CREATE VK_DEBUG_REPORT_OBJECT_TYPE_DESCRIPTOR_SET_EXT object 0x9
+Before data:
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 
+32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 
+96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 
+
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0xd] : CREATE CommandPool object 0xa
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0xe] : CREATE VK_DEBUG_REPORT_OBJECT_TYPE_COMMAND_BUFFER_EXT object 0x55c9243a4df0
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ[0xf] : CREATE Fence object 0xb
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy CommandBuffer obj 0x55c9243a4df0 (11 total objs remain & 0 CommandBuffer objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy CommandPool obj 0xa (11 total objs remain & 0 CommandPool objs).
+After data:
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 
+32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 
+96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 
+
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy DescriptorSet obj 0x9 (9 total objs remain & 0 DescriptorSet objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy DescriptorPool obj 0x8 (8 total objs remain & 0 DescriptorPool objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy Pipeline obj 0x7 (7 total objs remain & 0 Pipeline objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy PipelineLayout obj 0x6 (6 total objs remain & 0 PipelineLayout objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy DescriptorSetLayout obj 0x5 (5 total objs remain & 0 DescriptorSetLayout objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy ShaderModule obj 0x4 (4 total objs remain & 0 ShaderModule objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy Buffer obj 0x2 (3 total objs remain & 0 Buffer objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy DeviceMemory obj 0x3 (2 total objs remain & 0 DeviceMemory objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy Fence obj 0xb (1 total objs remain & 0 Fence objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy Queue obj 0x55c923ec0b20 (0 total objs remain & 0 Queue objs).
+[info:validation][UNASSIGNED-ObjectTracker-Info] OBJ_STAT Destroy DebugUtilsMessengerEXT obj 0x1 (2 total objs remain & 0 DebugUtilsMessengerEXT objs).
