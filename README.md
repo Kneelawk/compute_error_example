@@ -48,3 +48,6 @@ I decided to run `cargo expand compute_shader` to see what the generated descrip
 # Issue Link
 [Here is a link](https://github.com/vulkano-rs/vulkano/issues/1283#issue-530278345) to the issue on the vulkano
 repository.
+
+# Fix
+This issue was fixed in [vulkano-rs/vulkano#1275](https://github.com/vulkano-rs/vulkano/pull/1275#issue-341173204). At the time of this writing, 0.16.0 is the latest release of Vulkano available on crates.io, which does not include the fix. In order to use properly storage buffers in Vulkano, users must directly reference the Vulkano git repository as a dependency or depend on a released version of Vulkano later than 0.16.0 once one becomes available.
