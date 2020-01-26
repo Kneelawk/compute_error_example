@@ -7,5 +7,5 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-vulkano = "0.16.0"
-vulkano-shaders = "0.16.0"
+vulkano = { git = "https://github.com/vulkano-rs/vulkano", rev = "b0fb255c02eca58fb9b9b709e721bd89f8281ef4" }
+vulkano-shaders = { git = "https://github.com/vulkano-rs/vulkano", rev = "b0fb255c02eca58fb9b9b709e721bd89f8281ef4" }
